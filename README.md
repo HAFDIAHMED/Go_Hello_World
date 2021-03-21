@@ -40,3 +40,13 @@ For the purposes of this tutorial, just use example.com/hello.
 
 `$ go mod init example.com/hello`
 `go: creating new go.mod: module example.com/hello`
+
+### In your text editor, create a file hello.go in which to write your code.
+### Paste the following code into your hello.go file and save the file.
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
