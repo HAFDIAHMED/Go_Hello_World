@@ -1,18 +1,22 @@
 package main
 
-import "fmt"
-
+import (
+    "fmt"
+   //"time"
+)
 func main() {
 	
-	 var A uint =2
-	 var B uint =1
-	 var c uint =0
-     var d uint =0
-  	c= A & B
-  	d=A | B
-  	fmt.Printf("A.B= %d",c)
-  	fmt.Printf("A+B=%d",d)
-    
+	i:=2
+    fmt.Print("write ",i," as : ")
+
+    switch i {
+    case 1: 
+    	fmt.Print("one")
+    case 2: 
+    	fmt.Print("two")
+    case 3: 
+    	fmt.Print("three")
+    }
 
 
     
