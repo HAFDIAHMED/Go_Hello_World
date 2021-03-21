@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-   //"time"
+   "time"
 )
 func main() {
 	
@@ -17,7 +17,13 @@ func main() {
     case 3: 
     	fmt.Print("three")
     }
-
+     switch time.Now().Weekday()
+     {
+     case time.Saturday, time.Sunday:
+     	fmt.Println("it is weekend")
+     default :
+     	fmt.Println("it is a weekday")
+     }
 
     
 }
