@@ -1,7 +1,7 @@
 # Go_Hello_World
 
 
-# Get started with Go
+# Get started with Go (on Windows 10)
 
 <i>Install Go (if you haven't already).</i>
 
