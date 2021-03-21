@@ -10,18 +10,17 @@ func main() {
 
   	if (A==B){
   		fmt.Println("A is equal to B ")
-  	}
-  	else {
+  	}else {
   		fmt.Println("A is not equal to B")
   	}
   	if (A>B){
   		fmt.Println("A is begger than B ")
-  	}
-  	else{
+  	}else{
   		fmt.Println(" B is begger than A")
   	}
 
     
+
 
     
 }
