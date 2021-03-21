@@ -46,3 +46,7 @@ For the purposes of this tutorial, just use example.com/hello.
 package main
 
 <img src ="https://github.com/HAFDIAHMED/Go_Hello_World/blob/master/screenshots/HelloWorld.PNG">
+
+### Run your code to see the greeting.
+`$ go run .`
+`Hello, World!`
