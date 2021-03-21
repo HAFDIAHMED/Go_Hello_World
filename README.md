@@ -45,8 +45,8 @@ For the purposes of this tutorial, just use example.com/hello.
 ### Paste the following code into your hello.go file and save the file.
 package main
 
-import "fmt"
+`import "fmt"
 
 func main() {
     fmt.Println("Hello, World!")
-}
+}`
