@@ -14,6 +14,12 @@ func main() {
   	else {
   		fmt.Println("A is not equal to B")
   	}
+  	if (A>B){
+  		fmt.Println("A is begger than B ")
+  	}
+  	else{
+  		fmt.Println(" B is begger than A")
+  	}
 
     
 
