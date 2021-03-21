@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	
-	const LENGTH int =10
-	const WIDTH int = 5
-    var  area int
-    area= LENGTH*WIDTH
-    fmt.Printf(" value of are is %d",area)
+	 const A int =10
+	 
+
+  
+    fmt.Printf(" value of are is %d",A)
     
 }
 func hello_world(){
