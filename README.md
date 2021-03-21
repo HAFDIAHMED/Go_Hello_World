@@ -30,6 +30,13 @@ For example, use the following commands:
 
 ###  `mkdir hello` <br>`cd hello`
 
+#Enable dependency tracking for your code.
+When your code imports packages contained in other modules, you manage those dependencies through your code's own module. That module is defined by a go.mod file that tracks the modules that provide those packages. That go.mod file stays with your code, including in your source code repository.<br>
+
+To enable dependency tracking for your code by creating a go.mod file, run the go mod init command, giving it the name of the module your code will be in. The name is the module's module path. In most cases, this will be the repository location where your source code will be kept, such as github.com/mymodule. If you plan to publish your module for others to use, the module path must be a location from which Go tools can download your module.<br>
+
+For the purposes of this tutorial, just use example.com/hello.
+
 
 
 
