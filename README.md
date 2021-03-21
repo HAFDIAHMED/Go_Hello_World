@@ -28,6 +28,8 @@ Open a command prompt and cd to your home directory.
 Create a hello directory for your first Go source code.<br>
 For example, use the following commands:
 
+###  `mkdir hello <br>cd hello`
+
 
 
 
