@@ -4,21 +4,14 @@ import "fmt"
 
 func main() {
 	
-	 const A bool =true
-	 const B bool =false
-
-
-  	if (A&&B){
-  		fmt.Println("A AND B is true  ")
-  	}else {
-  		fmt.Println("A AND B is false")
-  	}
-  	if (A||B){
-  		fmt.Println("A or B os true  ")
-  	}else{
-  		fmt.Println(" B or A is false")
-  	}
-
+	 var A unit =2
+	 var B unit =1
+	 var c unit =0
+     var d unit =0
+  	c= A & B
+  	d=A | B
+  	fmt.Printf("A.B= %d",c)
+  	fmt.Printf("A+B=%d",d)
     
 
 
