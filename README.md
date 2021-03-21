@@ -12,3 +12,5 @@
 <i>Use the Go package discovery tool to find packages you can use in your own code.</i><br>
 
 <i>Call functions of an external module.</i><br>
+
+# Install Go
