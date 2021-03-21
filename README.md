@@ -38,15 +38,15 @@ To enable dependency tracking for your code by creating a go.mod file, run the g
 
 For the purposes of this tutorial, just use example.com/hello.
 
-`$ go mod init example.com/hello`
+`$ go mod init example.com/hello`<br>
 `go: creating new go.mod: module example.com/hello`
 
 ### In your text editor, create a file hello.go in which to write your code.
 ### Paste the following code into your hello.go file and save the file.
 package main
 
-`import "fmt"
+<img src ="https://github.com/HAFDIAHMED/Go_Hello_World/blob/master/screenshots/HelloWorld.PNG">
 
-func main() {
-    fmt.Println("Hello, World!")
-}`
+### Run your code to see the greeting.
+`$ go run .`<br>
+`Hello, World!`
