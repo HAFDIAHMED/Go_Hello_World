@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	
 	
-    fmt.Printf("hello \a world ")
+    fmt.Printf("hello \b world ")
     
 }
 func hello_world(){
