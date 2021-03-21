@@ -21,7 +21,12 @@ Just use the [Download and install](https://golang.org/doc/install) steps.
 
 Get started with Hello, World.
 
+Open a command prompt and cd to your home directory.
+
 ### `cd %HOMEPATH%`
+
+Create a hello directory for your first Go source code.<br>
+For example, use the following commands:
 
 
 
