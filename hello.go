@@ -5,10 +5,18 @@ import "fmt"
 func main() {
 	
 	 const A int =10
-	 
+	 const B int =11
 
-  
-    fmt.Printf(" value of are is %d",A)
+
+  	if (A==B){
+  		fmt.Println("A is equal to B ")
+  	}
+  	else {
+  		fmt.Println("A is not equal to B")
+  	}
+
+    
+
     
 }
 func hello_world(){
