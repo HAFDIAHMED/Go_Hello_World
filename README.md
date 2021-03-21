@@ -45,4 +45,4 @@ For the purposes of this tutorial, just use example.com/hello.
 ### Paste the following code into your hello.go file and save the file.
 package main
 
-<src ="https://github.com/HAFDIAHMED/Go_Hello_World/blob/master/screenshots/HelloWorld.PNG">
+<img src ="https://github.com/HAFDIAHMED/Go_Hello_World/blob/master/screenshots/HelloWorld.PNG">
