@@ -4,19 +4,19 @@ import "fmt"
 
 func main() {
 	
-	 const A int =10
-	 const B int =11
+	 const A bool =true
+	 const B bool =false
 
 
-  	if (A==B){
-  		fmt.Println("A is equal to B ")
+  	if (A&&B){
+  		fmt.Println("A AND B is true  ")
   	}else {
-  		fmt.Println("A is not equal to B")
+  		fmt.Println("A AND B is false")
   	}
-  	if (A>B){
-  		fmt.Println("A is begger than B ")
+  	if (A||B){
+  		fmt.Println("A or B os true  ")
   	}else{
-  		fmt.Println(" B is begger than A")
+  		fmt.Println(" B or A is false")
   	}
 
     
