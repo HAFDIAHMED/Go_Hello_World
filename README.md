@@ -14,3 +14,7 @@
 <i>Call functions of an external module.</i><br>
 
 # Install Go
+
+Just use the [Download and install](https://golang.org/doc/install) steps.
+
+
