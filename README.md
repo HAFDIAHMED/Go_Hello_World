@@ -38,7 +38,7 @@ To enable dependency tracking for your code by creating a go.mod file, run the g
 
 For the purposes of this tutorial, just use example.com/hello.
 
-`$ go mod init example.com/hello`
+`$ go mod init example.com/hello`<br>
 `go: creating new go.mod: module example.com/hello`
 
 ### In your text editor, create a file hello.go in which to write your code.
@@ -48,5 +48,5 @@ package main
 <img src ="https://github.com/HAFDIAHMED/Go_Hello_World/blob/master/screenshots/HelloWorld.PNG">
 
 ### Run your code to see the greeting.
-`$ go run .`
+`$ go run .`<br>
 `Hello, World!`
